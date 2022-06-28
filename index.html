@@ -27,23 +27,30 @@
                 <br>Looking forward to meeting yours️.
             </p>
             <form method="post" action="./">
-                <label for="firstName">First Name</label>
-                <input type="text" name="firstName" placeholder="John" required/>
+                <div class="form-data">
+                    <div class="form-left-part">
+                        <label for="firstName">First Name</label>
+                        <input type="text" name="firstName" placeholder="John" required/>
+                        
+                        <label for="email">Email</label>
+                        <input type="email" name="email" placeholder="johndoe@gmail.com" required/>
+                        
+                        <label for="password">Password</label>
+                        <input type="password" name="password" placeholder="********" required/>
+                    </div>
+                    <div class="form-right-part">
 
-                <label for="lastName">Last Name</label>
-                <input type="text" name="lastName" placeholder="Doe" required/>
-
-                <label for="email">Email</label>
-                <input type="email" name="email" placeholder="johnDoe@gmail.com" required/>
-
-                <label for="phoneNumber">Phone Number</label>
-                <input type="number" name="phoneNumber" placeholder="123-456-789" required/>
-
-                <label for="password">Password</label>
-                <input type="password" name="password" placeholder="********" required/>
-
-                <label for="confirmPassword">Confirm Password</label>
-                <input type="password" name="password" placeholder="********" required/>
+                        <label for="lastName">Last Name</label>
+                        <input type="text" name="lastName" placeholder="Doe" required/>
+                        
+                        <label for="phoneNumber">Phone Number</label>
+                        <input type="number" name="phoneNumber" placeholder="123-456-789" required/>
+    
+                        <label for="confirmPassword">Confirm Password</label>
+                        <input type="password" name="password" placeholder="********" required/>
+                    </div>
+                </div>
+                
 
                 <button type="submit">Create Account</button>
 
