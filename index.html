@@ -26,7 +26,7 @@
                 about spending time with dogs.
                 <br>Looking forward to meeting yours️.
             </p>
-            <form method="post" action="./">
+            <form id="serviceForm" method="post" action="./">
                 <div class="form-data">
                     <div class="form-left-part">
                         <label for="firstName">First Name</label>
@@ -36,7 +36,7 @@
                         <input type="email" name="email" placeholder="johndoe@gmail.com" required/>
                         
                         <label for="password">Password</label>
-                        <input type="password" name="password" placeholder="********" required/>
+                        <input id = "password" type="password" name="password" placeholder="********" required/>
                     </div>
                     <div class="form-right-part">
 
@@ -47,17 +47,18 @@
                         <input type="number" name="phoneNumber" placeholder="123-456-789" required/>
     
                         <label for="confirmPassword">Confirm Password</label>
-                        <input type="password" name="password" placeholder="********" required/>
+                        <input id ="confirmPassword" type="password" name="password" placeholder="********" required/>
                     </div>
                 </div>
                 
 
-                <button type="submit">Create Account</button>
+                <button id= "submitBtn" type="submit">Create Account</button>
 
                 <p>Already have an account? <a href="#">Log in</a></p>
             </form>
         </div>
 
     </div>
+    <script src="script.js"></script>
 </body>
 </html>

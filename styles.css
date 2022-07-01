@@ -193,14 +193,22 @@ label{
 }
 input{
   margin: 10px 0;
-  padding: 5px;  
+  padding: 5px;
+  border: 1px solid #8260c1;
+}
+input:focus{
+  border: 1px solid black;
 }
 button{
   color: #8260c1;
   background: #f5f4f9;
   border: 1px solid;
-  border-radius: 15px;
-  margin-top: 50px;  
+  border-radius: 30px;
+  margin-top: 50px; 
+  padding: 3px 20px; 
+}
+button:hover{
+  background-color: black;
 }
 a{
   color: #8260c1;
@@ -208,4 +216,5 @@ a{
 }
 a:hover{
   cursor: pointer;
+  color: #283e55;
 }
