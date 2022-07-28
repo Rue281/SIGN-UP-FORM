@@ -133,8 +133,11 @@
   src: url(https://fonts.gstatic.com/s/rubikwetpaint/v2/HTx0L20uMDGHgdULcpTF3Oe4d_-1_Db2.woff2) format('woff2');
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
-
+html{
+  height: 100%;
+}
 body{
+  height: 100%;
   overflow: hidden;
   margin: 0;
 }
@@ -143,7 +146,7 @@ body{
     justify-content: space-around;
     background: #f5f4f9;
     position: relative;
-    height: 100vh;
+    height: inherit;
     width: 80vw;
     margin: auto;
 }
@@ -151,9 +154,9 @@ body{
 .left-side{
     background-image: url("assets/background.jpg");
     background-position: right center;
-    background-size: cover;
+    background-size: 44em 60em;
     background-repeat: no-repeat;
-    flex-basis: 45%;
+    flex-basis: 43%;
 }
 
 .side-bar{
@@ -173,11 +176,11 @@ body{
 .text, p:not(.text),button{
   font-family: 'Oswald', sans-serif;
   font-size: 1.5em;
-  letter-spacing: 0.5px;
+  /*letter-spacing: 0.5px;*/
 }
 .right-side{
   color: #283e55;
-  padding: 1% 5%;
+  padding: 1% 3%;
 }
 .form-data{
   display: flex;
