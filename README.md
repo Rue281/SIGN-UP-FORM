@@ -31,4 +31,4 @@ SIGN-UP-FORM is intended to practice CSS Flex knowledge and form validation
 this form checks for:
 - any value for First Name and Last Name (not empty).
 - a valid Email address.
-- Password Confirmation input matches Password input
+- Password Confirmation input matches Password input.
