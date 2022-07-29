@@ -16,7 +16,7 @@ SIGN-UP-FORM is intended to practice CSS Flex knowledge and form validation
 
 [<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/1200px-HTML5_logo_and_wordmark.svg.png" width="40" height="40"/>](https://www.w3.org/html/)
 [<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1200px-CSS3_logo_and_wordmark.svg.png" width="30" height="40"/>](https://developer.mozilla.org/en-US/docs/Web/CSS)
-[<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Javascript-shield.svg/397px-Javascript-shield.svg.png" width="30" height="40"/>](https://developer.mozilla.org/en-US/docs/Web/CSS)
+[<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Javascript-shield.svg/397px-Javascript-shield.svg.png" width="30" height="40"/>](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 
 
 ### References and links
